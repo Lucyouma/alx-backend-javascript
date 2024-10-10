@@ -1,0 +1,6 @@
+# add sensitive files to .gitignore
+echo "path/to/secret-file" >> .gitignore
+
+# Commit the .gitignore update
+git add .gitignore
+git commit -m "Update .gitignore to ignore sensitive files"
